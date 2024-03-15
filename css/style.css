@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-image: url('../images/img.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.header {
+  padding-top: 46px;
+  padding-left: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 240px;
+}
+
+.logo {
+  margin-right: 34px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li + li {
+  margin-left: 25px;
+}
+
+.menu a {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.item {
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 120px;
+  line-height: 141px;
+}
+
+.text {
+  max-width: 674px;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 46px;
+}
+
+.slick-dots {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slick-dots li + li {
+  margin-left: 40px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+}
